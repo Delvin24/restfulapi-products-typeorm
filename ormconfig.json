@@ -1,23 +1,24 @@
 {
     "type": "mssql",
-    "host": "20081002733.database.windows.net",
-    "port": 1433,
-    "username": "uayeb",
-    "password": "9;&QSerqRW\"2<ed\"",
-    "database": "ingresos",
+    "host": "unahsergio.database.windows.net",
+    "port": 1433, 
+    "username":"ratonperez",
+    "password":"R@filo05",
+    "database":"Ingreso_vehiculos",
     "options":{
-      "synchronize": true,
-      "logging": false,
-      "encrypt": true,
-      "enableArithAbort": true
-    },    
-    "entities": [
-       "src/entity/**/*.ts"
-    ],
-    "migrations": [
-       "src/migration/**/*.ts"
-    ],
-    "subscribers": [
-       "src/subscriber/**/*.ts"
-    ]
- }
+        "synchronize": true,
+        "logging": false,
+        "encrypt": true,
+        "enableArithAbort": true
+      },    
+      "entities": [
+         "src/entity/**/*.ts"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ]
+   }
+   

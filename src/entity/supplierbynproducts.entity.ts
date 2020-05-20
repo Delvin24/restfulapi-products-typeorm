@@ -1,6 +1,6 @@
 import {ViewEntity,ViewColumn} from "typeorm";
 
-@ViewEntity({schema: "example", database: "ingresos", name:"ViewSuppliersByNProducts"})
+@ViewEntity({schema: "example", database: "Ingreso_vehiculos", name:"ViewSuppliersByNProducts"})
 export class ViewSuppliersByNProducts{
     @ViewColumn()
     SupplierID: number
